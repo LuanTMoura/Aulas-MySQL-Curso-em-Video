@@ -1,0 +1,5 @@
+MySQL - Curso em Vídeo  Aula 05
+
+01.
+DDL wich means Data Definition Language, implies that CREATE DATABASE and CREATE TABLE are DDL commands 
+or commands of definition. Example: to create a table, we use a command to do this, in other words, DDL.
