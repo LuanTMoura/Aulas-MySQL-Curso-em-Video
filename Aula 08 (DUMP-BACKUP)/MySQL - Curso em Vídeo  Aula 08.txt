@@ -1,0 +1,19 @@
+MySQL - Curso em Vídeo  Aula 08
+
+Steps to make a Dump (backup of a database archive of MySQL Data Base) on MySQL:
+01. On the menu, acess "Server";
+02. Click on "Data Export";
+03. Select schemas/database and his objects (tables etc);
+04. Select the type of Dump (Structure and Data, Data only or 
+Dump structure of table only);
+05. In export options, you gonna select export as folder or only one archive;
+06. Mark the box "Include Create Schema" to save the process of create database 
+by himself when the Dump is done;
+07. Start export;
+08. Checkout the folder that has been saved the SQL File and open with
+a text editor or something. Inside the archive, the script genereted as
+Dump, will show all steps executed to created that database.
+
+So, to import a Dump saved, just click on "Server", search for Data Import,
+click on "Import from Self-contained file" and select path/archive 
+you want to import. And then, refresh schemas.
