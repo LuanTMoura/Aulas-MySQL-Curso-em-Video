@@ -1,0 +1,85 @@
+MySQL - Curso em Vídeo  Aula 12
+
+01.
+MySQL have a literal operators, for example "like", that search on database for some data similar to the condition requested.
+Example: 
+
+	select * from cursos where nome like 'P%';
+
+The search request by where is case sensitive in this example and the % signal means something to replace (any or several characters) and search just what is ordered.
+
+02.
+The position of the wildcard % is important because if you change him, will have a different result.
+For example, try this:
+
+	select * from cursos where nome like 'a%';
+	select * from cursos where nome like '%a';
+
+The difference is that letter "a" will be search at the final of the characters.
+
+03.
+And also, if you use "%A%", the where gonna search the
+character in any data.
+
+04.
+The opposite of like is not like.
+
+05.
+It's possible use UPDATE just changing data with select, click on them and change their informations. After this, there's a button called  "Apply", so just click him.
+
+06.
+Summarizing, like command is used to search something that start or end with
+the statement requested. Example:
+
+	select * from cursos where nome like 'ph%p'; (photoshop and php)
+
+07.
+And there's a wildcard that obligate to show an existent character,
+for example:
+
+	select * from cursos where nome like 'ph%_'; (Photoshop, PHP, PHP4, PH7)
+	select * from cursos where nome like 'p_p%'; (PHP, PHP4, PH7)
+
+08.
+So, in a giant database, we can search a specific names, for example:
+
+	select * from gafanhotos where nome like '%silva%';
+
+(Every person that have Silva gonna be selected)
+
+09.
+To show every data existent and distinct each other, there's a command to search like this:
+
+	select distinct carga from cursos; (and show all worloads and don't repeat them)
+	select distinct nacionalidade from gafanhotos; (and show all countrys)
+
+10.
+There's a functions called aggregation functions, that works to select or show how many of something there is. For example, counting:
+
+	select count(*) from cursos; (and show how many itens have in cursos)
+	select count(*) from cursos where carga > 40;
+
+11.
+And also we can request the maximum inside of something with aggregation. 
+Example:
+
+	select max(totaulas) from cursos;
+	select max(carga) from cursos;
+
+The minimum as well:
+
+	select min(totaulas) from cursos;
+	select min(carga) from cursos;
+
+12.
+To have more certain of results, we can add more information
+to ask for a search. For example:
+
+	select nome, min(totaulas) from cursos;
+
+13.
+We can sum and request average from data. Example:
+
+	select sum(totaulas) from cursos; (583)
+	select avg(totaulas) from cursos; (19.4333)
+

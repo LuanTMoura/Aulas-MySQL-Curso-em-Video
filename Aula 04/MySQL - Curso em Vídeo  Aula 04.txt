@@ -2,7 +2,8 @@ MySQL - Curso em Vídeo  Aula 04
 
 
 
-01. 
+
+01.
 To delete some database, you use the command: drop database databasename; or CTRL+ENTER;
 
 02.
@@ -21,19 +22,19 @@ and you digit after the field type.
 05.
 Birth can be defined by the type: date.
 
-06. 
+06.
 When we are using the type >enum<, this mean that the user have only the parameters
 defined by the table to choose. Example: sex enum ('M','F').
 
 07.
 And now, when we define something with the type >decimal<, we decide a number
 that gonna be set before and after comma. 
-Example: decimal (5,2) -> Five spaces of digits and two spaces of digitis after comma 
-(so, it's possible to digit a nubver like "147,56").
+Example: decimal (5,2) -> Five spaces of digits and two spaces of digits after comma 
+(so, it's possible to digit a number like "147,56").
 
 08.
 The constraint DEFAULT are used to set optional choose if the user don't have something
-to digit. Like: nacionality varchar (20) DEFAULT 'Brasil'.
+to digit. Like: nationality varchar (20) DEFAULT 'Brasil'.
 
 08.
 After creating the fields inside the table, we close the line of command with
@@ -41,13 +42,15 @@ DEFAULT CHARSET = utf8;
 
 09.
 To differentiate an register, we use an PRIMARY KEY, that create different registers
-to smilar fields, like a name. Generally used with int.
+to similar fields, like a name. Generally used with int.
 
 10.
-There are a constraint to create a rigster after another already created
+There are a constraint to create a register after another already created
 and is called AUTO_INCREMENT.
 
-11. Using both tips above, we create "id" to differentiate registers, so for example:
+11.
+Using both tips above, we create "id" to differentiate registers, so for example:
 "id int NOT NULL AUTO_INCREMENT" and at the final of definition em digit "PRIMARY KEY (id)".
 
-12. Constraints are separed by an "_".
+12.
+Constraints are separate by an "_".
