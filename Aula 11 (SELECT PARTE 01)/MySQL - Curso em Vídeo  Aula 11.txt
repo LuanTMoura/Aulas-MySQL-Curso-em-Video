@@ -9,16 +9,19 @@ select * from course order by name;
 
 03. 
 Also, we can select descending itens. Example:
-select * from course order by name desc; 
+
+	select * from course order by name desc; 
 	- desc as a command is describe and desc as
 	parameter is descending.
+
 And asc as a parameter is ascending.
 
 04.
 We also can filter the columns name by their specifications.
 Example: select nome, carga, ano from cursos order by nome;
-This implies in changing order by other ways, for exanple:
-select ano, carga, nome from cursos order by ano, nome;
+This implies in changing order by other ways, for example:
+
+	select ano, carga, nome from cursos order by ano, nome;
 
 05.
 To filter by lines, we just add the WHERE before
@@ -26,7 +29,8 @@ the ORDER BY to specify parameters. Example:
 select * from cursos where ano = '2016' order by nome;
 And to limit by specific columns, we do the same as
 the example above:
-select nome, carga from cursos where ano = '2016' order by nome;
+
+	select nome, carga from cursos where ano = '2016' order by nome;
 
 06.
 We also can use relational operators to filter by some specific

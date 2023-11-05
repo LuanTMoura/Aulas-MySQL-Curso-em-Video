@@ -39,7 +39,8 @@ Besides of this rules, nothing prevent us to specify even more with where.
 Example:
 
 	select ano, count(*) from cursos 
-	where totaulas > 30 group by ano 
+	where totaulas > 30 
+	group by ano 
 	having ano > 2013 
 	order by count(*) desc;
 

@@ -13,7 +13,9 @@ Date on MySQL are on the contrary of date on Brazil (Year, month and day) and wr
 When we create a value with auto increment as a primary key, we don't need to input anything with INSERT INTO to register a field.
 
 04.
-To show everything of a table, we use a command select from. Example: select * from people.
+To show everything of a table, we use a command select from. Example:
+
+	select * from people.
 
 05.
 If we create a field predefined like an ID with auto_icrement or something like a 

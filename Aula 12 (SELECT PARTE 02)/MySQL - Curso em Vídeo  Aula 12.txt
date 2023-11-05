@@ -5,7 +5,7 @@ MySQL have a literal operators, for example "like", that search on database for 
 Example: 
 
 	select * from cursos where nome like 'P%';
-
+	
 The search request by where is case sensitive in this example and the % signal means something to replace (any or several characters) and search just what is ordered.
 
 02.
@@ -50,7 +50,7 @@ So, in a giant database, we can search a specific names, for example:
 09.
 To show every data existent and distinct each other, there's a command to search like this:
 
-	select distinct carga from cursos; (and show all worloads and don't repeat them)
+	select distinct carga from cursos; (and show all workloads and don't repeat them)
 	select distinct nacionalidade from gafanhotos; (and show all countrys)
 
 10.
