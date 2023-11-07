@@ -4,8 +4,8 @@ MySQL - Curso em Vídeo  Aula 03
 Inside the program XAMPP, you start the services Apache and MySQL.
 
 01.
-Database are range of tables and Tables are a range of registers;
-Registers are a range of fields/columns (main characteristic of something on a table, like name, age etc.);
+Database are a range of tables and Tables are a range of registers;
+Registers are a range of fields/columns (main characteristic of something on a table, like name, age, etc.);
 
 02.
 To create a new database in MSQL you digit:
@@ -13,15 +13,15 @@ To create a new database in MSQL you digit:
 	create database nameoftable;
 
 03.
-Semicolon indicate the end of a command in database;
+Semicolon indicates the end of a command in database;
 
 04.
 There are two forms to open a database and run a table (command create table),
-you do a double click on a database already created or digite de command: 
+you do a double click on a database already created or digit de command: 
 
 	use databasename;
 
 05.
-To show an table structure, you use the command: 
+To show a table structure, you use the command: 
 	
 	describe nameoftable;

@@ -1,7 +1,7 @@
 MySQL - Curso em Vídeo  Aula 16
 
 01.
-Following the example of the table that has a double relationship and has turned into a many-to-many relationship, the conjunction of relationships will be like:
+Following the example of the table that has a double relationship and has turned into a many-to-many relationship, the conjunction of relationships will be like this:
 
 	create table gafanhoto_assiste_curso (
 	id int not null auto_increment,
@@ -16,24 +16,24 @@ Following the example of the table that has a double relationship and has turned
 This table created was represented as a diamond first and has turned into a rectangle of entity.
 
 02.
-And to start including data inside this table, we use a simple INSERT INTO. Example:
+To start including data inside this table, we use a simple INSERT INTO. Example:
 
 	insert into gafanhoto_assiste curso values (default, '2014-03-01', '1', '2');
 
-Default is represented as a data generated automatically, following by date of the register that some person has started the course, the id of person and the course id.
+Default is represented as data generated automatically, followed by the date of the register that some person has started the course, the id of the person, and the course id.
 
 03.
-And to organize information with those names, we use select from with inner join and on.
+To organize information with those names, we use select from with inner join and on.
 
 		select * from gafanhotos as g inner join gafanhoto_assiste_curso as a on g.id = a.idgfanhoto;
 
 What's happened here?
 
-		- To show who whatched the course and what the name of course, we selected the table that carry students information and the table that register them on the course;
-		- And to show each informations, id of the person and the id of register, we used on.
+		- To show who watched the course and what the name of the course, we selected the table that carries students information and the table that registers them on the course;
+		- And to show each piece of information, id of the person and the id of the register course.
 
 04.
-To finish and show information of the third entity, in this case, the name of courses, we add another join and on AFTER the first join. Example:
+To finish and show information of the third entity, in this case, the name of courses, we add another join AFTER the first join. Example:
 
 		select g.nome, c.nome from 
 		gafanhotos as g inner join gafanhoto_assiste_curso as a 

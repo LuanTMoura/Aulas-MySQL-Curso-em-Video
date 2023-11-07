@@ -2,32 +2,29 @@
 Lines are tuples and columns are fields or attributes.
 
 02.
-We can't manipulate several lines at same time, but we can change inside a line in several columns at same time.
+We can't manipulate several lines at the same time, but we can change inside a line in several columns at the same time.
 
 03.
-To change the name of a column, we update the table, set in some column  and indicate where is the data (where is the primary key). Example: 
+To change the name of a column, we update the table, set it in some column, and indicate where is the data (where is the primary key). Example: 
 
 	update course set name = 'HTML5' where courseid = '1';
 
 04.
-And to change more than one column in one line, we just do a double set with a comma.
+To change more than one column in one line, we just do a double set with a comma.
 Example: 
 
 	update course set name = 'PHP', year = '2015' where courseid = '4';
 
 05.
-To avoid the risk of change more than one line if there's no primary key to indicate id,
-we use the command LIMIT, that helps to set a new data information according to how much
-lines we gonna change. 
+To avoid the risk of changing more than one line if there's no primary key to indicate id, we use the command LIMIT, which helps to set new data information according to how many lines we gonna change. 
 Example: 
 
 	update course set name = 'Java', year = '2015' where courseid = '5' limit 1;
 
 06.
-To change several lines at same time with similar characteristics, we must follow steps
-below:
+To change several lines at the same time with similar characteristics, we must follow the steps below:
 
-	- On menu, acesse the button "Edit";
+	- On the menu, access the button "Edit";
 	- Preferences;
 	- SQL Editor;
 	- Search for the box: "Safe updates";
@@ -37,13 +34,13 @@ below:
 	So, click on the last button called "Reconnect to DBMS"
 	- And now, change lines for example:
 	update course set year = '2050' where year = '2018';
-	- So every data that contains '2018' on column year
+	- So every data that contains '2018' in column year
 	gonna be set as '2050'.
 
-Safe update it suits to avoid mass delete data in a table.
+The safe update is suited to avoid the mass deletion of data in a table.
 
 07.
-Beside of update, we use DELETE FROM to drop some lines. Example: 
+Besides of update, we use DELETE FROM to drop some lines. Example: 
 
 	delete from course where year = '2050' limit 3;
 
@@ -61,4 +58,4 @@ The difference between DROP TABLE and TRUNCATE TABLE is:
 And also:
 
 	DT = Data Definition Language (Change table structure)
-	TT = Data Manipulation Language (Change the stuff form a table)
+	TT = Data Manipulation Language (Change the stuff from a table)
