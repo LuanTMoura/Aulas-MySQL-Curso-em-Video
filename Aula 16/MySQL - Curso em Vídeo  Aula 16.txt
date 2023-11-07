@@ -1,0 +1,45 @@
+MySQL - Curso em Vídeo  Aula 16
+
+01.
+Following the example of the table that has a double relationship and has turned into a many-to-many relationship, the conjunction of relationships will be like:
+
+	create table gafanhoto_assiste_curso (
+	id int not null auto_increment,
+	data date,
+    idgafanhoto int,
+    idcurso int,
+    primary key (id),
+    foreign key (idgafanhoto) references gafanhotos(id),
+    foreign key (idcurso) references cursos (idcurso)
+	) default charset = utf8;
+
+This table created was represented as a diamond first and has turned into a rectangle of entity.
+
+02.
+And to start including data inside this table, we use a simple INSERT INTO. Example:
+
+	insert into gafanhoto_assiste curso values (default, '2014-03-01', '1', '2');
+
+Default is represented as a data generated automatically, following by date of the register that some person has started the course, the id of person and the course id.
+
+03.
+And to organize information with those names, we use select from with inner join and on.
+
+		select * from gafanhotos as g inner join gafanhoto_assiste_curso as a on g.id = a.idgfanhoto;
+
+What's happened here?
+
+		- To show who whatched the course and what the name of course, we selected the table that carry students information and the table that register them on the course;
+		- And to show each informations, id of the person and the id of register, we used on.
+
+04.
+To finish and show information of the third entity, in this case, the name of courses, we add another join and on AFTER the first join. Example:
+
+		select g.nome, c.nome from 
+		gafanhotos as g inner join gafanhoto_assiste_curso as a 
+		on g.id = a.idgafanhoto 
+
+		inner join cursos as c 
+		on c.idcurso = a.idcurso
+
+		order by g.nome;
