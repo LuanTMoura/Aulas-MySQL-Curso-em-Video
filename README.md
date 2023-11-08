@@ -24,7 +24,7 @@ Nesse repositório serão encontrados todos os arquivos referentes às aulas que
 <br/> 
 <br/>
 
-### EN 🔴🔵⚪
+### EN 🔵🔴⚪
 # MySQL Lessons Curso em Video
 In this repository you'll find all the files relating to the lessons I studied about databases with MySQL, distributed by the Curso em Video channel on YouTube, made by teacher Gustavo Guanabara.
 
