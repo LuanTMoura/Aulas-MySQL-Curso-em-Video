@@ -19,6 +19,6 @@
    - One-to-one, one-to-many, may-to-many e conjuntos de relações báscia.
 
 # Certificado
-[Certificado]()
+[Certificado](https://www.linkedin.com/in/luan-tobias/details/education/1635549023546/single-media-viewer?type=DOCUMENT&profileId=ACoAADMgcrABV45VbHh9raWGmwfM77l8Za1UzrQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_education_details%3Bvfe%2BDQ4TTT%2BAiwZ7Pg7JkA%3D%3D)
 
    
