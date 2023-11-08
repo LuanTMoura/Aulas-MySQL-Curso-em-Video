@@ -23,9 +23,6 @@ Nesse repositório serão encontrados todos os arquivos referentes às aulas que
 <br/> 
 <br/> 
 <br/>
-<br/> 
-<br/> 
-<br/>
 
 ### EN 🔴🔵⚪
 # MySQL Lessons Curso em Video
