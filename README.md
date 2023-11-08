@@ -18,7 +18,7 @@
  - Básico do uso de Inner Join e Foreign Key.
    - One-to-one, one-to-many, may-to-many e conjuntos de relações báscia.
 
-   ## Certificado
-   [Certificado]()
+# Certificado
+[Certificado]()
 
    
