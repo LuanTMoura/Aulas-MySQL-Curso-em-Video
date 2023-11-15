@@ -1,6 +1,6 @@
 
 ### PT-BR 🟢🟡
-# Aulas MySQL Curso em Video
+# Aulas de MySQL do Curso em Video
 Nesse repositório serão encontrados todos os arquivos referentes às aulas que estudei sobre banco de dados com MySQL, distribuído pelo canal Curso em Vídeo no YouTube, feito pelo professor Gustavo Guanabara.
 
 # Certificado
@@ -25,7 +25,7 @@ Nesse repositório serão encontrados todos os arquivos referentes às aulas que
 <br/>
 
 ### EN 🔵🔴⚪
-# MySQL Lessons Curso em Video
+# MySQL Lessons from Curso em Video
 In this repository you'll find all the files relating to the lessons I studied about databases with MySQL, distributed by the Curso em Video channel on YouTube, made by teacher Gustavo Guanabara.
 
 # Certificate
