@@ -23,6 +23,7 @@
 				* [02. Connections Factory](#02-connections-factory)
 				* [03. Data Access Object](#03-data-access-object)
 				* [04. Main Class](#04-main-class)
+
 </br>
 </br>
 </br>
@@ -462,6 +463,10 @@ Driver: [my-sql-connection-j-8.1.0.jar](https://downloads.mysql.com/archives/c-j
 </br>
 Stack version: [Java JDK-20](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html)
 </br>
+
+## Licença
+
+[![License: MIT (https://github.com/LuanTMoura/Study-CRUD-Java/blob/main/LICENSE)](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Source of learned content
 
