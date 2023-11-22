@@ -4,6 +4,7 @@
 * [Estudo de CRUD em Java](#estudo-de-crud-em-java)
 	* [Configurações](#configurações)
 	* [Fonte do conteúdo aprendido](#fonte-do-conteúdo-aprendido)
+	* [Licença](#licença)
 	* [O que foi aprendido?](#o-que-foi-aprendido)
 		* [Configuração da base de dados](#configuração-da-base-de-dados)
 		* [Desenvolvendo o CRUD e conectando o banco de dados](#desenvolvendo-o-crud-e-conectando-o-banco-de-dados)
@@ -16,6 +17,7 @@
 * [CRUD Study in Java](#crud-study-in-java)
 	* [Settings](#settings)
 	* [Source of learned content](#source-of-learned-content)
+ 	* [License](#license)
 		* [What was learned?](#what-was-learned)
 			* [Database configuration](#database-configuration)
 			* [Developing CRUD and connecting the database](#developing-crud-and-connecting-the-database)
@@ -464,7 +466,7 @@ Driver: [my-sql-connection-j-8.1.0.jar](https://downloads.mysql.com/archives/c-j
 Stack version: [Java JDK-20](https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html)
 </br>
 
-## Licença
+## License
 
 [![License: MIT (https://github.com/LuanTMoura/Study-CRUD-Java/blob/main/LICENSE)](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
